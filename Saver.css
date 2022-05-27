@@ -6,7 +6,7 @@
         margin-top: -285px;*/
 }
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svgz);
+    background: url(xbox-assets/disconnected.png);
 }
 
 .xbox.disconnected div {
@@ -23,7 +23,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svgz);
+    background: url(xbox-assets/trigger.png);
     opacity: 0;
 }
 
@@ -40,7 +40,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svgz);
+    background: url(xbox-assets/bumper.png);
     opacity: 0;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
+    background: url(xbox-assets/start-select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
