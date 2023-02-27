@@ -1,5 +1,5 @@
 .controller.xbox {
-    background: url(https://imgur.com/rWIXYy7.png);
+    background: url(https://imgur.com/oeHvAJy.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -7,7 +7,7 @@
 }
 
 .xbox.disconnected {
-    background: url(https://imgur.com/ZKo9ceT.png);
+    background: url(https://imgur.com/ze7d5oT.png);
 }
 
 .xbox.disconnected div {
@@ -24,7 +24,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svg);
+    background: url(https://imgur.com/4vgge0l.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svg);
+    background: url(https://imgur.com/DSZhWdW.png);
     opacity: 0;
 }
 
@@ -67,6 +67,35 @@
     transform: rotateY(180deg);
 }
 
+.xbox .quadrant {
+    position: absolute;
+    background: url();
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
 .xbox .arrows {
     position: absolute;
@@ -77,7 +106,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://imgur.com/btU6IWe.png);
+    background: url(https://imgur.com/sdIT9PR.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -106,7 +135,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://imgur.com/MLp4tKM.png);
+    background: url(https://imgur.com/a4kxKac.png);
     width: 48px;
     height: 48px;
 }
@@ -151,18 +180,20 @@
 
 .xbox .stick.left {
     position: absolute;
-    background: url(https://imgur.com/xQjukyJ.png);
+    background: url(https://imgur.com/cycr2Su.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
 }
+
 .xbox .stick.right {
     position: absolute;
-    background: url(https://imgur.com/HeOkNFd.png);
+    background: url(https://imgur.com/oi1paz1.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
 }
+
 .xbox .stick.pressed {
     background-position: 0 0;
 }
@@ -186,7 +217,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svg);
+    background: url(https://imgur.com/ak96OpR.png);
     position: absolute;
     opacity: 0;
 }
