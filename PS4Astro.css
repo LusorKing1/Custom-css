@@ -1,0 +1,32 @@
+.controller.ds4.white {
+    background-image: url(https://imgur.com/kw5hwiV.png);
+}
+
+.ds4.white.disconnected {
+    background: url(https://imgur.com/CMJommk.png);
+}
+
+.ds4.white .trigger {
+    background-image: url(https://imgur.com/lIVczU4.png);
+}
+
+.ds4.white .bumper {
+    background-image: url(https://imgur.com/Vl88ywJ.png);
+
+}
+
+.ds4.white .back, .ds4 .start {
+    background-image: url(https://imgur.com/x6def6r.png);
+}
+
+.ds4.white .button {
+    background-image: url(https://imgur.com/RngiKvP.png);
+}
+
+.ds4.white .stick {
+    background-image: url(https://imgur.com/DdipkwG.png);
+}
+
+.ds4.white .face {
+    background-image: url(https://imgur.com/yK7tCSN.png);
+}
