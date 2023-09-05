@@ -6,10 +6,6 @@
         margin-top: -285px;*/
 }
 
-.xbox.white {
-    background: url(xbox-assets/base-white.svg);
-}
-
 .xbox.disconnected {
     background: url(https://imgur.com/vvBdGTb.png);
 }
@@ -73,7 +69,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(e);
+    background: url();
     height: 45px;
     width: 45px;
     top: 258px;
@@ -182,7 +178,15 @@
     left: 144px;
 }
 
-.xbox .stick {
+.xbox .stick.left {
+    position: absolute;
+    background: url(https://imgur.com/AuZZNa5.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox .stick.right {
     position: absolute;
     background: url(https://imgur.com/AuZZNa5.png);
     background-position: -85px 0;
