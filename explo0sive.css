@@ -4,7 +4,10 @@
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
+}
 
+.xbox.white {
+    background: url(xbox-assets/base-white.svg);
 }
 
 .xbox.disconnected {
@@ -68,6 +71,15 @@
     transform: rotateY(180deg);
 }
 
+.xbox .quadrant {
+    position: absolute;
+    background: url(e);
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
 
 .xbox .p0 {
     -webkit-transform: rotate(0deg);
@@ -133,7 +145,7 @@
 }
 
 .xbox .button.pressed {
-    background-position-y: -49px;
+    background-position-y: -48px;
     margin-top: 5px;
     opacity: 1;
 }
@@ -173,7 +185,7 @@
 .xbox .stick {
     position: absolute;
     background: url(https://imgur.com/AuZZNa5.png);
-    background-position: -86px 0;
+    background-position: -85px 0;
     height: 83px;
     width: 83px;
 }
