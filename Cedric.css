@@ -1,9 +1,9 @@
 .controller.ds4.white {
-    background-image: url(https://imgur.com/24lPdi4.jpeg);
+    background-image: url(https://imgur.com/LeEwVAa.png);
 }
 
 .ds4.white.disconnected {
-    background: url(ps4-assets/disconnected.svgz);
+    background: url(ps4-assets/disconnected.svg);
 }
 
 .ds4.white .trigger {
@@ -23,12 +23,11 @@
 }
 
 .ds4.white .button {
-    background-image: url(https://imgur.com/5txx5Ew.jpeg);
+    background-image: url(https://imgur.com/ODWZjim.png);
 }
 
 .ds4.white .stick {
-    background-image: url(https://imgur.com/7QQB7wx.jpeg
-    );
+    background-image: url(https://imgur.com/IOGP8EE.png);
 }
 
 .ds4.white .face {
