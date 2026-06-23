@@ -110,7 +110,6 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(https://imgur.com/XNZBWRX.png);
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -122,14 +121,22 @@ background-position: 0 -70px;
 }
 .ds4 .back {
     position: absolute;
-    left: 183px;
-    bottom: -20px;
+    left: 171px;
+    bottom: -27px;
 }
 
 
-.ds4 .back.pressed, .ds4 .start.pressed {
+.ds4 .back.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
+    background: url(https://imgur.com/XNZBWRX.png);
+    opacity: 1;
+}
+
+.ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
+    background: url(https://imgur.com/jjqYEWL.png);
     opacity: 1;
 }
 
