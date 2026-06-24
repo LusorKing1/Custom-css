@@ -116,27 +116,27 @@ background-position: 0 -70px;
 }
 .ds4 .start {
     position: absolute;
-    left: 777px;
-    bottom: 485px;
+    left: 550px;
+    bottom: -27px;
 }
 .ds4 .back {
     position: absolute;
-    left: 397px;
-    bottom: 485px;
+    left: 170px;
+    bottom: -27px;
 }
 
 
 .ds4 .back.pressed {
-background: url(https://imgur.com/XNZBWRX.png);
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
+    background: url(https://imgur.com/XNZBWRX.png);
     opacity: 1;
 }
 
 .ds4 .start.pressed {
-background: url(https://imgur.com/jjqYEWL.png);
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
+    background: url(https://imgur.com/jjqYEWL.png);
     opacity: 1;
 }
 
